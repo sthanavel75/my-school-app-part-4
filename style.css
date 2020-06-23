@@ -1,0 +1,77 @@
+h1 {
+    color: gold;
+}
+
+/* * {
+    border: solid;
+} */
+
+.header{
+    background-color: goldenrod;
+    display: flex;
+    justify-content: space-between;
+
+    
+}
+.menu{
+margin-right: 30px;
+
+
+
+}
+
+h2{
+
+background-color: mediumpurple;
+}
+h3{
+  background-color: turquoise;
+}
+.site-description{
+    display: flex;
+    flex-direction: column;
+    justify-content: first baseline;
+}
+
+.grid{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    background-color: turquoise
+;
+}
+
+.footer{
+    display: flex;
+    justify-content: flex-end;
+}
+
+p,h2{
+    text-align: center;
+}
+.item{
+
+background-color: mediumpurple;
+position: relative;
+
+
+}
+.item p{
+position: relative;
+ right: -50%;
+ top: 10%;
+    transform: translate(-50%,-80%);
+    opacity:0;
+
+}
+.item:hover p{
+    opacity:1
+}
+.schools{
+
+    background-color: turquoise;
+
+
+
+
+}
